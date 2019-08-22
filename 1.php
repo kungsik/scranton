@@ -3,7 +3,7 @@
 include "header.php";
 
     if ($_POST["submit"]) {
-        if ($_POST["password"] == 'whoisscranton') {
+        if (trim($_POST["password"]) == 'whoisscranton') {
 ?>
             
             <div class="container" >
@@ -41,12 +41,28 @@ include "header.php";
             <h1 class="display-4">라운드1-1</h1>
             <p class="lead">아래 비밀번호를 해킹해서 알아내시오.</p>
             <hr class="my-4">
-            <p>힌트: 눈에 보이는 것이 전부는 아니다. 핸드폰으로는 알 수 없는 정보...</p>
+            <p>힌트: 눈에 보이는 것이 전부는 아니다. 카멜레온은 어떻게 숨지?</p>
             <form name="secure" method="POST" action="1.php" class="form-group">
-                <label for="password">비밀번호</label>
+                <label for="password">비밀번호 <span style="color:#E9ECEF">whoisscranton</span></label>
                 <input type="password" class="form-control" id="passowrd" name="password" 정답="whoisscranton"><br>
                 <input type="submit" class="btn btn-primary" name="submit">
             </form>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div style="text-align:right">
+            <span style="color:#fff">whoisscranton</span>
         </div>
     </div>
 

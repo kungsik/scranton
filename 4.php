@@ -1,7 +1,7 @@
 <?php
 include "header.php";
     if ($_POST["submit"]) {
-        if ($_POST["answer"] == '을사늑약') {
+        if (trim($_POST["answer"]) == '을사늑약') {
 ?>
 
             <div class="container" >

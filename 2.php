@@ -2,7 +2,7 @@
 include "header.php";
 
     if ($_POST["submit"]) {
-        if ($_POST["answer"] == '185') {  
+        if (trim($_POST["answer"]) == '185') {  
 ?>
 
             <div class="container" >

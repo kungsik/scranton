@@ -1,7 +1,7 @@
 <?php
 include "header.php";
     if ($_POST["submit"]) {
-        if ($_POST["answer"] == '내용') {
+        if (trim($_POST["answer"]) == '내용') {
 ?>
             <div class="container" >
                 <center>
